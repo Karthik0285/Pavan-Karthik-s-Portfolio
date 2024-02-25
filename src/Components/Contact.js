@@ -52,7 +52,7 @@ function Contact() {
 
     <h2 id="Write" style={{ whiteSpace: 'pre' }}>Write about your requirement :</h2>
     <div id="Requirement">
-    <form>
+    <form action="/" method="POST">
     <h4 id="Name-Of-User">Name :</h4>
     <h5><input id="Enter-Your-Name" style={{ whiteSpace: 'pre' }} type="text" placeholder="Enter Your Name" required/><i id="User-Icon" className="fa-solid fa-user"></i></h5>
        
