@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import emailjs from 'emailjs-com'
 import './Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
+    useEffect(() => {
+    emailjs.init("2s6vGQg_-5W0cUUe5"); 
+    }, []);
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        emailjs.send("service_whuidmb", "template_2wt3jdx", {
+            to_email: "pavankarthik634@gmail.com",
+        }).then((response) => {
+            console.log("Email sent successfully", response);
+        }).catch((error) => {
+            console.error("Error sending email", error);
+        });
+    };
     return (
     <div>
         <div id="Contact-Heading">
@@ -72,7 +86,6 @@ function Contact() {
     <div id="Rights">
       <h4>© Pavan Karthik Udayagiri. All rights reserved</h4>
     </div>
-
 </div>
     )
 }
