@@ -12,7 +12,16 @@
         top: 50px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Skills-Heading {
+        left: 0;
+        position: relative;
+        top: 50px;
+    }
+  }
 #skills-box {
     height: auto;
     display: flex;
@@ -31,7 +40,23 @@
     color: rgb(30, 128, 0);
     margin-top: 0;
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .skill-category {
+    width: 100%;
+    max-width: 300px;
+    border: 5px solid rgb(0, 51, 128);
+    margin: 0 auto 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    color: rgb(30, 128, 0);
+    margin-top: 0;
+  }
+  }
 .FE, .BE, .Misc {
     color: rgb(30, 128, 0);
     margin-top: 0;
@@ -55,7 +80,26 @@
         top: -20%;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .FE {
+        position: relative;
+        top: -17%;
+    }
+    .skill-category {
+        margin-bottom: 15%;
+    }
+    .BE {
+        position: relative;
+        top: -17%;
+    }
+    .Misc {
+        position: relative;
+        top: -17%;
+    }
+  }
 .skill-item {
     display: flex;
     justify-content: space-between;
@@ -82,7 +126,15 @@
         margin-right: 4%;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .skill-item {
+        width: 48%;
+        margin-right: 4%;
+    }
+  }
 #Frontend-1,#Backend-1,#Misc-1{
     display: flex;
     justify-content: space-between;
@@ -151,6 +203,23 @@
         margin-bottom: 15px; 
     }
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #HTML,
+    #CSS,
+    #BOOTSTRAP,
+    #JAVASCRIPT,
+    #JQUERY,
+    #REACT,#PYTHON,#NODE,#AWS,#SQL,#GIT,#GITHUB{
+        position: static; 
+        top: auto;
+        left: auto;
+        width: 100%; 
+        margin-bottom: 15px; 
+    }
+  }
 @media only screen and (max-width: 768px) {
     #BOOTSTRAP,
     #JAVASCRIPT,
