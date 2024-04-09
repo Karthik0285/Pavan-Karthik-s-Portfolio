@@ -5,7 +5,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .img-thumbnail {
         top: 50px;
     }
@@ -27,7 +27,7 @@
     transform: translateX(-50%);
     margin-top: -40px;
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     #Pavan {
         margin-top: 0;
     }
@@ -55,7 +55,7 @@ span {
     top:30px;
     color: white;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .container {
         text-align: left; 
         top: 15px; 

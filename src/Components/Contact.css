@@ -9,7 +9,15 @@
         position: relative;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Contact-Heading{
+        top:50px;
+        position: relative;
+    }
+  }
 #Contact{
     position: relative;
     top: 125px;
@@ -27,7 +35,15 @@
         height:1000px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Contact{
+        width: 90%; 
+        height:1000px;
+    }
+  }
 #Info {
     text-align: center;
     margin: 20px 0;
@@ -42,13 +58,22 @@
         padding: 5px;  
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Info {
+        font-size: 18px; 
+        margin: 10px 0; 
+        padding: 5px;  
+    }
+  }
 #Talk{
     color: rgb(30, 128, 0);
     position: absolute;
     left:175px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Talk {
         text-align: center;
         padding: 0;
@@ -59,7 +84,20 @@
         left:100px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Talk {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px; 
+        position: absolute;
+        top:105px;
+        font-size: 20px;
+        left:275px;
+    }
+  }
 #Details{
     position: absolute;
     border: 5px solid rgb(0, 120, 128);
@@ -69,7 +107,7 @@
     padding: 15px; 
     box-sizing: border-box; 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Details{
         width: 90%;
         left: 5%;
@@ -78,7 +116,18 @@
         top:150px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Details{
+        width: 45%;
+        left: 25%;
+        height:125px;
+        position: absolute;
+        top:150px;
+    }
+  }
 #Email-Info{
     display: flex;
     align-items: center;
@@ -109,7 +158,7 @@
     position: relative;
     top:10px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Email-Logo,#Phone-Logo{
         font-size: 13px; 
         margin-top: 3%;
@@ -120,7 +169,20 @@
         font-size: 14px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Email-Logo,#Phone-Logo{
+        font-size: 13px; 
+        margin-top: 3%;
+        position: relative;
+        top:2px;
+    }
+    #Email-Heading,#Phone-Heading{
+        font-size: 14px;
+    }
+  }
 #Social-Media{
     color: rgb(30, 128, 0);
     padding-left: 150px;
@@ -128,7 +190,7 @@
     top:350px;
     left:30px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Social-Media{
         padding: 0;
         position: absolute;
@@ -137,7 +199,18 @@
         font-size: 20px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Social-Media{
+        padding: 0;
+        position: absolute;
+        top:300px;
+        left:275px;
+        font-size: 20px;
+    }
+  }
 #Social-Links{
     position: absolute;
     border: 5px solid rgb(0, 120, 128);
@@ -147,7 +220,7 @@
     padding: 15px; 
     box-sizing: border-box; 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Social-Links{
         width: 90%;
         left: 5%;
@@ -156,7 +229,18 @@
         top:340px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Social-Links{
+        width: 45%;
+        left: 25%;
+        height:215px;
+        position: absolute;
+        top:340px;
+    }
+  }
 #Linkedin-Info{
     display: flex;
     align-items: center;
@@ -188,7 +272,7 @@
     position: relative;
     top:10px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Linkedin-Logo,#Twitter-Logo{
         font-size: 13px; 
         margin-top: 3%;
@@ -199,7 +283,20 @@
         font-size: 14px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Linkedin-Logo,#Twitter-Logo{
+        font-size: 13px; 
+        margin-top: 3%;
+        position: relative;
+        top:2px;
+    }
+    #Linkedin-Heading,#Twitter-Heading{
+        font-size: 14px;
+    }
+  }
 #Instagram-Info{
     display: flex;
     align-items: center;
@@ -232,7 +329,7 @@
     position: relative;
     top:10px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Instagram-Logo,#Facebook-Logo{
         font-size: 13px; 
         margin-top: 3%;
@@ -243,14 +340,27 @@
         font-size: 14px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Instagram-Logo,#Facebook-Logo{
+        font-size: 13px; 
+        margin-top: 3%;
+        position: relative;
+        top:2px;
+    }
+    #Instagram-Heading,#Facebook-Heading{
+        font-size: 14px;
+    }
+  }
 #Write{
     color: rgb(30, 128, 0);
     position: absolute;
     top: 115px;
     left: 600px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Write {
         position: absolute;
         top: 585px;
@@ -260,6 +370,19 @@
         font-size: 20px;
     }
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Write {
+        position: absolute;
+        top: 600px;
+        left: 200px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size: 20px;
+    }
+  }
 
 #Requirement {
     height: 525px;
@@ -269,7 +392,7 @@
     border: 5px solid rgb(0, 120, 128);
     top: 175px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Requirement {
         position: absolute;
         left: 5%;
@@ -281,6 +404,21 @@
         height:325px;
     }
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Requirement {
+        position: absolute;
+        left: 21%;
+        width: 55%; 
+        margin: 0 auto; 
+        border-width: 3px;
+        top: 640px; 
+        border: 5px solid rgb(0, 120, 128);
+        height:325px;
+    }
+  }
 
 #Name-Of-User{
     position: absolute;
@@ -288,7 +426,7 @@
     top:30px;
     color:white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Name-Of-User{
         position: relative;
         left: -40%;
@@ -298,6 +436,19 @@
         font-size: 13px;
     }
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Name-Of-User{
+        position: relative;
+        left: -35%;
+        top: 20px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size: 13px;
+    }
+  }
 
 #Enter-Your-Name{
     position: absolute;
@@ -306,7 +457,7 @@
     width:325px;
     padding-left: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Enter-Your-Name{
         position: relative;
         left: 20px;
@@ -319,14 +470,29 @@
         padding-left: 25px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Enter-Your-Name{
+        position: relative;
+        left: 20px;
+        top: -20px;
+        margin-bottom: 20px; 
+        width:65%;
+        font-size: 13px;
+        width:180px;
+        word-spacing: 2px;
+        padding-left: 25px;
+    }
+  }
 #User-Icon{
     position: absolute;
     left:140px;
     top:35px;
     color:rgb(30, 128, 0);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #User-Icon{
         position: relative;
         left: -150px;
@@ -336,14 +502,26 @@
         font-size:13px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #User-Icon{
+        position: relative;
+        left: -150px;
+        top: -20px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size:13px;
+    }
+  }
 #Name-Of-Email-User{
     position: absolute;
     left:25px;
     top:100px;
     color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Name-Of-Email-User{
         position: relative;
         left: -40%;
@@ -353,7 +531,19 @@
         font-size: 13px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Name-Of-Email-User{
+        position: relative;
+        left: -35%;
+        top: -30px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size: 13px;
+    }
+  }
 #Enter-Your-Email{
     position: absolute;
     left:130px;
@@ -361,7 +551,7 @@
     width:325px;
     padding-left: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Enter-Your-Email{
         position: relative;
         left: 21px;
@@ -374,14 +564,29 @@
         padding-left: 25px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Enter-Your-Email{
+        position: relative;
+        left: 21px;
+        top: -72px;
+        margin-bottom: 20px; 
+        width:65%;
+        font-size: 13px;
+        width:180px;
+        word-spacing: 2px;
+        padding-left: 25px;
+    }
+  }
 #Envelope-Icon{
     position: absolute;
     left:140px;
     top:105px;
     color:rgb(30, 128, 0);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Envelope-Icon{
         position: relative;
         left: -150px;
@@ -391,14 +596,26 @@
         font-size:13px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Envelope-Icon{
+        position: relative;
+        left: -150px;
+        top: -72px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size:13px;
+    }
+  }
 #User-Project{
     position: absolute;
     left:25px;
     top:175px;
     color:white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #User-Project{
         position: relative;
         left: -39.3%;
@@ -408,14 +625,26 @@
         font-size: 13px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #User-Project{
+        position: relative;
+        left: -35%;
+        top: -80px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size: 13px;
+    }
+  }
 #Project-Icon{
     position: absolute;
     left:140px;
     top:185px;
     color:rgb(30, 128, 0);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Project-Icon{
         position: relative;
         left: -150px;
@@ -425,14 +654,26 @@
         font-size:13px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Project-Icon{
+        position: relative;
+        left: -150px;
+        top:-249px;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-size:13px;
+    }
+  }
 #Project-Details{
     position: absolute;
     left:130px;
     top:180px;
     padding-left: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Project-Details{
         position: relative;
         left: 21px;
@@ -445,7 +686,22 @@
         padding-left: 25px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Project-Details{
+        position: relative;
+        left: 21px;
+        top: -115px;
+        margin-bottom: 20px; 
+        width:65%;
+        font-size: 13px;
+        width:180px;
+        word-spacing: 2px;
+        padding-left: 25px;
+    }
+  }
 #Send-Message-Button{
     position:absolute;
     background-color: rgb(30, 128, 0);
@@ -470,7 +726,20 @@
         top: -145px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Send-Message-Button{
+        left: 15px;
+        margin: 10px 15px 10px auto; 
+        font-size: 10px;
+        padding: 8px 15px;
+        border-radius: 15px;
+        position: relative;
+        top: -145px;
+    }
+  }
 #Rights{
     position: relative;
     top:175px;
@@ -487,5 +756,15 @@
         padding: 10px;
     }
 }
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #Rights {
+        position: relative;
+        top: 150px; 
+        font-size: 18px;
+        padding: 10px;
+    }
+  }
 

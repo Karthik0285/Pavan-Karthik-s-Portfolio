@@ -5,7 +5,7 @@
     top: 63px;
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #Skills-Heading {
         left: 0;
         position: relative;
@@ -40,30 +40,13 @@
     color: rgb(30, 128, 0);
     margin-top: 0;
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .skill-category {
-    width: 100%;
-    max-width: 300px;
-    border: 5px solid rgb(0, 51, 128);
-    margin: 0 auto 20px;
-    box-sizing: border-box;
-    padding: 10px;
-    position: relative;
-    top: 100px;
-    color: rgb(30, 128, 0);
-    margin-top: 0;
-  }
-  }
 .FE, .BE, .Misc {
     color: rgb(30, 128, 0);
     margin-top: 0;
     position: relative;
     top: -80px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .FE {
         position: relative;
         top: -17%;
@@ -120,7 +103,7 @@
     color: rgb(30, 128, 0);
     margin-bottom: 5px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     .skill-item {
         width: 48%;
         margin-right: 4%;
@@ -189,7 +172,7 @@
     top: 300px;
     left: 135px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #HTML,
     #CSS,
     #BOOTSTRAP,
@@ -220,7 +203,7 @@
         margin-bottom: 15px; 
     }
   }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #BOOTSTRAP,
     #JAVASCRIPT,
     #JQUERY,
